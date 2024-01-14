@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+app=Flask(__name__, static_url_path='/static')
 from flask_wtf import FlaskForm
 from wtforms import FileField, SubmitField
 from werkzeug.utils import secure_filename
