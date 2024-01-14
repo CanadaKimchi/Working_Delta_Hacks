@@ -1,0 +1,147 @@
+:root {
+  --tw-gradient-stops: #60a5fa, #3b82f6, #2563eb;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, var(--tw-gradient-stops));
+  background-color: #84b7f6;
+  background-color: #60a5fa;
+  background-color: #3b82f6;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1.5rem;
+}
+
+img {
+  width: 10rem;
+  height: 10rem;
+}
+
+.div1 {
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  width: 100%;
+  max-width: 28rem;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-size: 1.875rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 2.25rem;
+  font-weight: 700;
+  text-align: center;
+  color: #1e40af;
+}
+
+.div2 {
+  display: grid;
+  gap: 1rem;
+}
+
+.div3 {
+  display: grid;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.div4 {
+  display: grid;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+button {
+  display: inline-flex;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.375rem;
+  width: 100%;
+  height: 2.5rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #2563eb;
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+
+  &:hover {
+    background-color: #3b82f6;
+  }
+
+  form {
+    max-width: 300px; /* Optional: Adjust the maximum width of the form */
+    margin: auto; /* Optional: Center the form horizontally */
+  }
+
+  label {
+    display: block; /* Display each label on a new line */
+    margin-bottom: 5px; /* Add some spacing between labels and input fields */
+  }
+
+  input,
+  select {
+    display: block; /* Display each input field on a new line */
+    margin-bottom: 10px; /* Add some spacing between input fields */
+    width: 100%; /* Optional: Make the input fields full width */
+  }
+
+  /* Optional: Style the submit button */
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .form.div1 {
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    width: 100%;
+    max-width: 28rem;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+
+  .form.div2 {
+    display: grid;
+    padding: 5px;
+  }
+
+  .form.div3 {
+    display: grid;
+    padding: 5px;
+  }
+
+  .form.div4 {
+    display: grid;
+    padding: 5px;
+  }
+
+  .form.div5 {
+    display: grid;
+    padding: 5px;
+  }
+}
